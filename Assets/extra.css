@@ -1,0 +1,111 @@
+.pdivmain, .infopags{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.infopags a{
+    font-size: 40px;
+    text-decoration: none;
+    width: 20rem;
+    background-color: #1c91a0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.pdivmain img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.audivmain{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 4rem;
+}
+.audivmain img{
+    position: absolute;
+    right: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.alo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titu{
+    background-color: #1c91a0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.rvdivmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.maincerti{
+    display: flex;
+    justify-content: space-around;
+    align-items: safe;
+    padding: 2rem;
+}
+
+iframe {
+    width: 50%;
+    height: 450px;
+    border: none;
+  }
+  
+  .txtsql{
+    display: flex;
+    justify-content: center;
+    background-color: #1c91a0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+
+.rvdivmain img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.rvaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rvaa img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+#codigo {
+	width: 40rem;
+	height: 30rem;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #1ea200;
+	border: 1px solid #ccc;
+	background-color: #000000;
+}
+.asisdivmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.asisdivmain p{
+    width: 45rem;
+    background-color: #1c91a0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.hvmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hv{
+    width: 50rem;
+}

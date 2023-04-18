@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #1f2746;
+    font-family: Verdana;
+
+}
+.container{
+    width: 1200px;
+    /* background: rgb(212, 191, 156); */
+    background-image: url(https://i.pinimg.com/736x/da/11/8d/da118dc0f0827c85913aac0759f1e4b3.jpg);
+    margin: 10px auto;
+}
+.superior{
+    /* background: gray; */
+    background-image: url(https://besthqwallpapers.com/Uploads/15-9-2018/65909/thumb2-printed-circuit-board-pcb-chip-neon-blue-light-electronic-component.jpg);
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 500px; /*pone menu de nav*/
+    padding: 20px;
+}
+                            /*estilos para menu*/
+.menu{
+    /* float: right; */
+    float: right;
+    padding: 10px;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+    
+}
+.opciones li{ /*que todas las viñetas se pongan left y que no sean viñetas sino hor.*/
+    float: left;
+    list-style: none;
+}
+.opciones li a{/*que el color del menu sea blanco */
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background: black;
+}
+.contenido{
+    text-align: center;
+    color: azure;
+    background: #1f2746;
+    font-size: 20px;
+    /* position: relative;
+    left: 200px;
+    width: 800px; */
+    border: 3px solid rgb(252, 249, 249);/*FORMA DE CAJA ALRREDEDOR*/
+    margin: 2px;
+    padding: 20px;
+    text-align: justify;
+}
+.boton{
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 15px 20px;
+    background: #222b4b;
+}
+
+.boton:hover{
+    background: rgb(86, 102, 192);
+    cursor: pointer; /*esto sirve pa poner el cursor seleccinado manito*/
+}
+                    /*ESTILOS PARA EL CUERPOOO */
+.cuerpo{
+    overflow: hidden;
+}
+.titulo{
+    text-align: center;
+    color: aliceblue;
+    background: #1f2746;
+    padding: 20px;
+}
+.caja{
+    padding: 30px;
+    /* position: relative;
+    left: 500px; */
+    margin: 5px;
+}
+.efecto:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+/*para nosotros.html*/
+.parlacanvas{
+    
+    border: 3px solid rgb(252, 249, 249);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    padding: 20px;
+}
+.dofa{
+    position: relative;
+    bottom: 50px;
+}
+.canvas{
+    position: relative;
+    top: 50px;
+}
+/*para contacto.html*/
+.cajac{
+    float: left;
+    padding: 30px;
+}
+.parlac1{
+    float: right;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    right: 150px;
+    top: 100px;
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+}
+.imgautor{
+    padding: 50px;
+    /* float: left; */
+}
+.parlautor{
+    /* float: right; */
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 40px;
+    /* position: relative;
+    top: 50px; */
+}
+#contenedor{
+    /* background-color:rgb(212, 191, 156); */
+    border:2px solid #FF0000;
+}
+#cabecera{
+        background-color:#E5BC7A;
+        height:20%;
+}
+#menu{
+        height:10%;
+        background-color:#848687;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#izquierda{
+        height:50%;
+        /* background-color:#BDD2EF; */
+        background-image: url(https://fondosmil.com/fondo/46326.jpg);
+        float:left;
+        width:50%;
+}
+#derecha{
+        height:50%;
+        background-color:#DAF7E2;
+        float:right;
+        width:50%;
+        position: relative;
+        top: 300px;
+}
+#izquierda1{
+    height:100%;
+    /* background-color:#BDD2EF; */
+    background-image: url(https://fondosmil.com/fondo/46326.jpg);
+    float:left;
+    width:50%;
+}
+#derecha1{
+    height:100%;
+    background-color:#DAF7E2;
+    float:right;
+    width:50%;
+    position: relative;
+    top: 300px;
+}
+#pie{
+        height:20%;
+        background-color:#D3D1C1;
+        clear:both;
+}
+
+/*para servicios.html*/
+/* .cajap{ */
+    /* padding: 15px; */
+/* } */
+
+                        /*ESTILOS DE FOOTER*/
+.pie{
+    background: rgb(53, 53, 90);
+    overflow: hidden; /*pa que pueda ponerse las 2 cajas*/
+    float: right;
+}
+ .abajo{
+    color: white;
+    font-size: 20px;
+} 
+.izquiF{
+    
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.dereF{
+    float: left;
+    position: relative;
+    left: 200px;
+    width: 550px;
+    padding: 20px;
+}
+
+
+/* SADNajiuboiasnoioipanmosinconacoinaoinsoi */
+
+
+.col-sm-8-row{
+    position: relative;
+    left: 385px;
+    /* overflow: hidden; */
+    color: azure;
+    font-size: 35px;
+    background: #1f2746;
+    width: 500px;
+    text-align: center;
+    text-size-adjust: 90%;
+}
+
+.button{
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 15px 20px;
+    background: #222b4b;
+}
+/* .col-sm-4>button{
+    position: relative;
+    left: 300px;
+    color: azure;
+} */
+
+.carroa{
+    color: azure;
+}
+/* .list-group{
+    color: azure;
+    position: relative;
+    left: 300px;
+} */
+
+
+/* .results{
+    position: relative;
+    left: 300px;
+    color: azure;
+    background-color: #1f2746;
+} */
+
+
+/* .row{
+    font-size: 20px;
+}*/
+
+/* 
+.contenedor1{ Centrar todos los parrafos */
+     /* width: 90%; */
+
+
+    /* max-width: 1000px; */
+    /* position: relative;
+    left: 200px;
+    margin: auto; */
+    
+    /* overflow: hidden; */
+    /* padding: 60px; */
+/* }  */
